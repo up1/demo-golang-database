@@ -1,9 +1,9 @@
 # Code Example
 
-* 01. Global variable
-* 02. Dependency Injection
-* 03. Interface
-* 04. Context
+01. Global variable
+02. Dependency Injection
+03. Interface
+04. Context
 
 ## Start database with docker
 ```
@@ -14,3 +14,5 @@ $docker container run -d \
  -p 5432:5432 \
  postgres:12
 ```
+
+Code example from [Practical Persistence in Go: Organising Database Access](https://www.alexedwards.net/blog/organising-database-access)
